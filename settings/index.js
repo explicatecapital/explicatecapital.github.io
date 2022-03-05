@@ -7,7 +7,7 @@ const // cache environment context
     // dest: dev
     DEV = 'dev',
     // dest: prd
-    PRD = 'prd',
+    PRD = 'docs',
     // dest: env
     OUT = ENV === 'development' ? DEV : PRD,
 
