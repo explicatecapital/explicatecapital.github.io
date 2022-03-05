@@ -1,0 +1,34 @@
+extends ../root
+
+block body
+
+    body(id=bodyId class=bodyClass)
+
+        block header
+
+            +header-1("/#front", "explicate-capital-llc", "Explicate Capital LLC", [
+                {
+                    href: "/#determination",
+                    name: "Determination"
+                },
+                {
+                    href: "/#focus",
+                    name: "Focus"
+                },
+                {
+                    href: "/#section-3",
+                    name: "Results"
+                }
+            ])
+
+        block main
+
+        block footer
+
+            include ../../components/footers/2/_
+
+        //- end-of-body script insertion
+        block inject
+
+        //- compatibility
+        noscript This application require JavaScript, please enable it.
